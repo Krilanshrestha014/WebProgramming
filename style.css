@@ -257,7 +257,7 @@ footer {
 }
 
 .product-item {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .product-item img {
@@ -300,7 +300,6 @@ footer {
 .explore h1 {
     text-align: center;
     margin-top: 40px;
-
 }
 
 .Announcement {
@@ -330,15 +329,156 @@ footer {
     text-align: center;
 }
 
-/*Events and Collaboration*/
-
+/* Events and Collaboration */
 .events-collaboration {
-    flex-direction:column-reverse;
-    justify-content: space-between;
     margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+.events-collaboration h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.events-row {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 40px;
+}
+
+.event {
+    text-align: center;
 }
 
 .event img {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
+
+.event p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+/*CONTACT US*/
+
+.contacts h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h3 {
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    margin-bottom: 40px;
+}
+
+.form-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    text-align: right;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-group button:last-child {
+    background-color: grey;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.social-links a {
+    font-size: x-large;
+    padding: 10px;
+}
+
+/* About us */
+
+.about {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.story, .mission, .reason {
+    text-align: left;
+}
+
+.story h3, .mission h3, .reason h3 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.story p, .mission p, .reason p {
+    margin-left: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 500px;
+    height: 350px;
+}
+
+
